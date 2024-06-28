@@ -1,0 +1,19 @@
+image:
+  repository: scootsoftware/snapclient
+  tag: 0.28.0@sha256:f3ea15a7167dc84066e7fdc6010d5adda89aedf443a798044ee31de123e81fac
+  pullPolicy: IfNotPresent
+securityContext:
+  container:
+    runAsNonRoot: false
+    readOnlyRootFilesystem: false
+    runAsUser: 0
+    runAsGroup: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            HOST: localhost
+            PORT: 1704
+            ALSA_DEVICE: default
