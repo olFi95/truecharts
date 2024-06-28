@@ -1,0 +1,40 @@
+{
+    "charts": {
+        "snapclient": {
+            "app_readme": "SnapClient",
+            "categories": [
+                "media"
+            ],
+            "description": "SnapClient is the client for Snapcast. Use this to stream media via Snapcast to Speakers.",
+            "healthy": true,
+            "healthy_error": null,
+            "home": "https://github.com/badaix/snapcast",
+            "location": "/__w/charts/charts/charts/snapcast",
+            "latest_version": "2.0.7",
+            "latest_app_version": "1.27.8",
+            "latest_human_version": "1.27.8_2.0.7",
+            "last_update": "2024-06-28 06:51:02",
+            "name": "snapclient",
+            "recommended": false,
+            "title": "SnapClient",
+            "maintainers": [
+                
+            ],
+            "tags": [
+                "media",
+                "sync",
+                "file-sharing"
+            ],
+            "screenshots": [
+                "https://media.sys.truenas.net/apps/syncthing/screenshots/screenshot1.png",
+                "https://media.sys.truenas.net/apps/syncthing/screenshots/screenshot2.png",
+                "https://media.sys.truenas.net/apps/syncthing/screenshots/screenshot3.png",
+                "https://media.sys.truenas.net/apps/syncthing/screenshots/screenshot4.png"
+            ],
+            "sources": [
+                "https://github.com/badaix/snapcast"
+            ],
+            "icon_url": "https://media.sys.truenas.net/apps/syncthing/icons/icon.svg"
+        }
+    }
+}
